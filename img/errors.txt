@@ -1,0 +1,5 @@
+[2017-12-07 15:23:33] layer "bg_mv.jpg": Duplicate path: bg_mv.jpg
+[2017-12-07 15:23:33] layer "banner_wss_01.jpg": Duplicate path: banner_wss_01.jpg
+[2017-12-07 15:23:33] layer "banner_wss_02.jpg": Duplicate path: banner_wss_02.jpg
+[2017-12-07 15:23:33] layer "banner_wss_03.jpg": Duplicate path: banner_wss_03.jpg
+[2017-12-07 15:23:33] layer "website_wss.jpg": Duplicate path: website_wss.jpg
