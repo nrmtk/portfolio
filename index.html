@@ -6,34 +6,50 @@
     <meta name="description" content="ページの説明">
     <meta name="viewpoint" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <wrapper id="wrapper">
+</head>
+
+<body>
+    <div id="wrapper">
         <header id="header">
-            <div id="mv">
+            <h1 class="mv">
                 <img src="img/mv_header.jpg" alt="mv">
-            </div>
-            <div id="gnav">
-                <ul>
-                    <li class="gnav"><a href="#about">about</a></li>
-                    <li class="gnav"><a href="#skills">skills</a></li>
-                </ul>    
-                <ul>
-                    <li class="gnav"><a href="#works">works</a></li>
-                    <li class="gnav"><a href="#contact">contact</a></li>
-                </ul>
-            </div>
+            </h1>
         </header>
-        
-        <div class="about">
-           <div class="img-about">
+
+        <nav id="gnav">
+            <ul class="gnav-contents-01">
+                <li class="gnav"><a href="#about">about</a></li>
+                <li class="gnav"><a href="#skills">skills</a></li>
+            </ul>
+
+            <ul class="gnav-contents-02">
+                <li class="gnav"><a href="#works">works</a></li>
+                <li class="gnav"><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+
+
+        <div id="about">
+            <div class="img-about">
                 <img src="img/heading_about.png" alt="">
-           </div> 
+            </div>
+            <div class="box-blue-about">
+                <dl class="contents-about">
+                    <dt>名前</dt>
+                    <dd>narumi</dd>
+                </dl>
+                <dl class="contents-about">
+                    <dt>在住</dt>
+                    <dd>札幌</dd>
+                </dl>
+
+            </div>
         </div>
-    </wrapper>
-    
-    
+    </div>
+
+
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/script.js"></script>
-  </body>
+</body>
 </html>
