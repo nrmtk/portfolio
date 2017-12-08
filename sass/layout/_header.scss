@@ -3,23 +3,43 @@
     height: auto;
 }
 
-#nav ul{
+#mv img{
     width: 100%;
-    height: 80px;
-    background-color: #fff799;
+}
+
+#gnav ul{
+    width: 100%;
+    height: 40%;
+    list-style-type: none;
 }
 
 .gnav{
-    width: 25%;
-    height: 82px;
+    width: 50%;
+    height: 40%;
     float: left;
     text-decoration: none;
-
+    border: 1px solid #ccc;
+    background-color: #fff799;
 }
 
 .gnav a{
-    line-height: 82px;
+    font-size: 36px;
+    font-family: "Pinyon Script";
+    font-weight: bold;
+    color: #8ed5be;
+    line-height: 83px;
     text-align: center;
     display: block;
     text-decoration: none;
 }
+
+.gnav a:hover{
+    color: #fff;
+}
+
+
+.img-about{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
