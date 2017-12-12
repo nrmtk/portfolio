@@ -119,7 +119,7 @@ dd{
 //#worksの編集ここから
 .box-blue-works{
     width: 100%;
-    height: 2000px;
+    height: 2040px;
     background-color: #8ed5be;
     padding: 50px 50px;
     position: relative;
@@ -127,8 +127,8 @@ dd{
 }
 
 .box-white-works{
-    width: 80%;
-    height: 1800px;
+    width: 90%;
+    height: 1940px;
     background-color: #fff;
     position: absolute;
     top: 50px;
@@ -180,18 +180,104 @@ figcaption{
 
 .box-blue-contact{
     width: 100%;
-    height: 800px;
+    height: 860px;
     background-color: #8ed5be;
-    padding: 50px 50px;
+    padding: 16px 16px;
     position: relative;
     margin: 0 auto;
 }
 
+.form{
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.form dl{
+    text-align: center;
+}
+
 .form dt{
+    width: 35%;
     font-size: 18px;
     font-weight: bold;
     color: #fff;
+    line-height: 1.5;
+    margin-right: 20px;
+//    border-right: 1px dotted #fff;
 }
+
+.form span{
+    font-size: 24px;
+    font-family: "Pinyon Script";
+    font-weight: bold;
+    color: #fff799;
+    border-bottom: 1px solid #fff799;
+}
+
+.form dd{
+    font-size: 16px;   
+    padding: 12px 0;
+    color: #fff;
+}
+
+#text{
+    width: 36%;
+    border-radius: 10px;
+}
+
+#email{
+    width: 40%;
+    border-radius: 10px;
+}
+
+#select{
+    width: 25%;
+    border-radius: 10px;
+}
+
+#message{
+    width: 56%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.btn-submit{
+    width: 26%;
+    border: 1px solid #fff;
+    padding: 1px;
+    border-radius: 50px;
+    line-height: 1.5;
+    text-align: center;
+    position: absolute;
+    bottom: 36px;
+    left: 300px;
+}
+
+span.txt-submit-en{
+    font-size: 24px;
+    font-family: "Pinyon Script";
+    font-weight: bold;
+    color: #fff799;
+    border-bottom: 1px solid #fff799;
+}
+
+span.txt-submit-jp{
+    font-size: 16px;
+    font-family: "Meiryo";
+    font-weight: bold;
+    color: #fff;
+    border-bottom: none;
+}
+
+.form a{
+    display: block;
+}
+
+//#submit{
+//    width: 200px;
+//}
 
 
 

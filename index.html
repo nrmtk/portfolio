@@ -103,22 +103,31 @@
                 <div class="box-blue-contact">
                     <div class="form">
                         <dl>
-                            <dt>name<br>お名前</dt>
+                            <dt><span>name</span><br>お名前</dt>
                             <dd>
-                                <input type="text" name="name">
+                                <input type="text" name="name" id="text" placeholder="入力してください">
                             </dd>
                         </dl>
                         <dl>
-                            <dt>email address<br>メールアドレス</dt>
+                            <dt><span>sex</span><br>性別</dt>
                             <dd>
-                                <input type="email" name="email"></dd>
+                                <input type="radio" name="sex" id="male" checked>男性
+                                <input type="radio" name="sex" id="female">女性
+                            </dd>
                         </dl>
                         <dl>
-                            <dt>residential area<br>居住地</dt>
+                            <dt><span>email address</span><br>メールアドレス</dt>
                             <dd>
-                                <select name="prefecture-list">
+                                <input type="email" name="email" id="email" placeholder="入力してください">
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><span>residential area</span><br>居住地</dt>
+                            <dd>
+                                <select name="prefecture-list" id="select">
+                                    <option value="未選択" selected>選択してください</option>
                                     <optgroup label="北海道・東北地方">
-                                        <option value="北海道" selected>北海道</option>
+                                        <option value="北海道">北海道</option>
                                         <option value="青森県">青森県</option>
                                         <option value="岩手県">岩手県</option>
                                         <option value="宮城県">宮城県</option>
@@ -142,7 +151,9 @@
                                         <option value="福井県">福井県</option>
                                         <option value="山梨県">山梨県</option>
                                         <option value="長野県">長野県</option>
-                                        <option value="岐阜県">岐阜県</option><option value="静岡県">静岡県</option><option value="愛知県">愛知県</option>
+                                        <option value="岐阜県">岐阜県</option>
+                                        <option value="静岡県">静岡県</option>
+                                        <option value="愛知県">愛知県</option>
                                     </optgroup>
                                     <optgroup label="近畿地方">
                                         <option value="大阪府">大阪府</option>
@@ -171,16 +182,38 @@
                                         <option value="熊本県">熊本県</option>
                                         <option value="大分県">大分県</option>
                                         <option value="宮崎県">宮崎県</option>
-                                        <option value="鹿児島県">鹿児島県</option><option value="沖縄県">沖縄県</option>
+                                        <option value="鹿児島県">鹿児島県</option>
+                                        <option value="沖縄県">沖縄県</option>
                                     </optgroup>
                                 </select>
                             </dd>
                         </dl>
                         <dl>
-                            <dt>message<br></dt>
-                            <dd></dd>
+                            <dt><span>message</span><br>メッセージ</dt>
+                            <dd>
+                                <textarea name="message" id="message" cols="30" rows="15"></textarea>
+                            </dd>
                         </dl>
+                    
+                    <a href="#">
+                        <div class="btn-submit">
+                            <P>
+                                <span class="txt-submit-en">submit</span><br>
+                                <span class="txt-submit-jp">送信</span>
+                            </P>
+                        </div>
+                    </a>
+                    
                     </div>
+
+
+                    <!--
+                            <dd>
+                                <input type="submit" value="送信" id="submit">
+                            </dd>
+-->
+
+
                 </div>
             </div>
 
