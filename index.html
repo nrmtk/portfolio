@@ -9,42 +9,135 @@
 </head>
 
 <body>
-    <div id="wrapper">
-        <header id="header">
-            <h1 class="mv">
-                <img src="img/mv_header.jpg" alt="mv">
-            </h1>
-        </header>
+    <div id="container">
+        <div id="wrapper">
+            <header id="header">
+                <h1 class="mv">
+                    <img src="img/pc_mv_header.jpg" alt="mv">
+                </h1>
+            </header>
 
-        <nav id="gnav">
-            <ul class="gnav-contents-01">
-                <li class="gnav"><a href="#about">about</a></li>
-                <li class="gnav"><a href="#skills">skills</a></li>
-            </ul>
+            <nav id="gnav">
+                <ul>
+                    <li class="gnav"><a href="#about">about</a></li>
+                    <li class="gnav"><a href="#skills">skills</a></li>
+                </ul>
 
-            <ul class="gnav-contents-02">
-                <li class="gnav"><a href="#works">works</a></li>
-                <li class="gnav"><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
+                <ul>
+                    <li class="gnav"><a href="#works">works</a></li>
+                    <li class="gnav"><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
 
 
 
-        <div id="about">
-            <div class="img-about">
-                <img src="img/heading_about.png" alt="">
+            <div id="about">
+                <div class="heading-img">
+                    <img src="img/pc_heading_about.png" alt="">
+                </div>
+                <div class="box-blue-about">
+
+                    <div class="box-white-about">
+                        <dl>
+                            <dt>名前</dt>
+                            <dd>narumi</dd>
+                        </dl>
+                        <dl>
+                            <dt>在住</dt>
+                            <dd>札幌</dd>
+                        </dl>
+                        <dl>
+                            <dd>ホームページ・ビルダーでホームページ制作を経験した<br>ことを機に、もっと本格的なホームページを作ってみたい<br>と思い、勉強を始めました。
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
             </div>
-            <div class="box-blue-about">
-                <dl class="contents-about">
-                    <dt>名前</dt>
-                    <dd>narumi</dd>
-                </dl>
-                <dl class="contents-about">
-                    <dt>在住</dt>
-                    <dd>札幌</dd>
-                </dl>
 
+            <div id="skills">
+                <div class="heading-img">
+                    <img src="img/pc_header_skills.png" alt="">
+                </div>
+
+                <div class="box-blue-skills">
+                    <div class="box-white-skills">
+                        <ul>
+                            <li>実用英語技能検定</li>
+                            <li>ドイツ語技能検定4級</li>
+                            <li>Microsoft Office Specialist Word 2010 Expert </li>
+                            <li>Microsoft Office Specialist Excel 2010 Expert </li>
+                            <li>Microsoft Office Specialist Power Point 2010 </li>
+                            <li>Microsoft Office Specialist Access 2010</li>
+                            <li>Webクリエイター能力認定試験 エキスパート 取得予定</li>
+                            <li>ホームページ・ビルダー, HTML5, CSS3, Javascript, jQuery, Photoshop</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <div id="works">
+                <div class="heading-img"><img src="img/pc_heading_works.png" alt=""></div>
+                <div class="box-blue-works">
+                    <div class="box-white-works">
+                        <figure><img src="img/banner_wss_01.jpg" alt="" class="works-img">
+                            <figcaption>banner 01</figcaption>
+                        </figure>
+                        <figure><img src="img/banner_wss_02.jpg" alt="" class="works-img">
+                            <figcaption>banner 02</figcaption>
+                        </figure>
+                        <figure><img src="img/banner_wss_03.jpg" alt="" class="works-img">
+                            <figcaption>banner 03</figcaption>
+                        </figure>
+                        <figure><img src="img/website_wss.jpg" alt="" class="works-img">
+                            <figcaption>banner04
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact">
+                <div class="heading-img">
+                    <img src="img/pc_heading_contact.png" alt="">
+                </div>
+                <div class="box-blue-contact">
+                    <div class="form">
+                        <dl>
+                            <dt>name<br>お名前</dt>
+                            <dd>
+                                <input type="text" name="name">
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>email address<br>メールアドレス</dt>
+                            <dd>
+                                <input type="email" name="email"></dd>
+                        </dl>
+                        <dl>
+                            <dt>residential area<br>居住地</dt>
+                            <dd>
+                                <select name="prefecture-list">
+                                   <optgroup label="北海道・東北地方">
+                                    <option value="">北海道</option>
+                                    <option value="">青森県</option>
+                                    <option value="">岩手県</option>
+                                    <option value="">宮城県</option>
+                                    <option value="">秋田県</option>
+                                    <option value="">山形県</option>
+                                    <option value="">福島県</option>
+                                </optgroup>
+                                </select>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>message<br></dt>
+                            <dd></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 

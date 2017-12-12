@@ -12,34 +12,31 @@
 }
 
 #gnav{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     @extend %cf;
 }
 
-.gnav-contents-01{
+#gnav ul{
+    height: 100px;
     list-style-type: none;
 }
-
-.gnav-contents-02{
-    list-style-type: none;
-}
-
 
 .gnav{
     width: 50%;
-//    height: 40%;
+    height: 100px;
     float: left;
     text-decoration: none;
     background-color: #fff799;
 }
 
 .gnav a{
+    height: 100px;
     border: 1px solid #ccc;
     font-size: 36px;
     font-family: "Pinyon Script";
     font-weight: bold;
     color: #8ed5be;
-    line-height: 83px;
+    line-height: 100px;
     text-align: center;
     display: block;
     text-decoration: none;
@@ -48,6 +45,7 @@
 .gnav a:hover{
     color: #fff;
 }
+
 
 
 
