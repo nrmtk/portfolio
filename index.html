@@ -103,28 +103,36 @@
                 <div class="box-blue-contact">
                     <div class="form">
                         <dl>
-                            <dt><span>name</span><br>お名前</dt>
+                            <dt>
+                                <label for="name"><span>name</span><br>お名前</label>
+                            </dt>
                             <dd>
-                                <input type="text" name="name" id="text" placeholder="入力してください">
+                                <input type="text" name="name" id="name" placeholder="入力してください" required>
                             </dd>
                         </dl>
                         <dl>
-                            <dt><span>sex</span><br>性別</dt>
+                            <dt>
+                                <span>sex</span><br>性別
+                            </dt>
                             <dd>
-                                <input type="radio" name="sex" id="male" checked>男性
-                                <input type="radio" name="sex" id="female">女性
+                                <input type="radio" name="sex" id="male" checked>
+                                <label for="male">男性</label>
+                                <input type="radio" name="sex" id="female">
+                                <label for="female">女性</label>
                             </dd>
                         </dl>
                         <dl>
-                            <dt><span>email address</span><br>メールアドレス</dt>
+                            <dt>
+                                <label for="email"><span>email address</span><br>メールアドレス</label>
+                            </dt>
                             <dd>
-                                <input type="email" name="email" id="email" placeholder="入力してください">
+                                <input type="email" name="email" id="email" placeholder="入力してください" required>
                             </dd>
                         </dl>
                         <dl>
                             <dt><span>residential area</span><br>居住地</dt>
                             <dd>
-                                <select name="prefecture-list" id="select">
+                                <select name="prefecture-list" id="select" required>
                                     <option value="未選択" selected>選択してください</option>
                                     <optgroup label="北海道・東北地方">
                                         <option value="北海道">北海道</option>
@@ -189,9 +197,11 @@
                             </dd>
                         </dl>
                         <dl>
-                            <dt><span>message</span><br>メッセージ</dt>
+                            <dt>
+                                <label for="message"><span>message</span><br>メッセージ</label>
+                            </dt>
                             <dd>
-                                <textarea name="message" id="message" cols="30" rows="15"></textarea>
+                                <textarea name="message" id="message" cols="15" rows="10"></textarea>
                             </dd>
                         </dl>
 

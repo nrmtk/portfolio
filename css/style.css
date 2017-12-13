@@ -137,10 +137,11 @@ img {
   font-family: "Meiryo";
   font-weight: bold;
   color: #8ed5be;
+  border-bottom: 1px solid #8ed5be;
+  padding-bottom: 2px;
   position: absolute;
   bottom: 30px;
-  left: 38px;
-  text-align: center; }
+  left: 38px; }
 
 #header {
   height: 60%; }
@@ -341,23 +342,35 @@ figcaption {
   padding: 12px 0;
   color: #fff; }
 
-#text {
+#name {
   width: 36%;
-  border-radius: 10px; }
+  height: 36px;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: 16px; }
 
 #email {
   width: 40%;
-  border-radius: 10px; }
+  height: 36px;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: 16px; }
 
 #select {
-  width: 25%;
-  border-radius: 10px; }
+  width: 28%;
+  height: 36px;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: 16px; }
 
 #message {
   width: 56%;
   height: 200px;
-  border-radius: 10px;
-  overflow: auto; }
+  font-size: 16px;
+  border-radius: 20px;
+  line-height: 1.5;
+  overflow: auto;
+  padding: 12px 12px; }
 
 .btn-submit {
   width: 26%;
@@ -408,5 +421,5 @@ span.txt-submit-jp {
   font-family: "Arial";
   color: #fff;
   position: absolute;
-  bottom: 48px;
+  bottom: 30px;
   left: 280px; }
