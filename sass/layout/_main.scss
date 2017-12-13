@@ -26,25 +26,27 @@
 }
 
 .box-white-about{
-    width: 90%;
-    height: 340px;
+    width: 80%;
+    height: 80%;
     background-color: #fff;
     position: absolute;
-    top: 50px;
-    left: 40px;
+    top: 10%;
+    left: 10%;
+//    right: 50px;
+//    bottom: 50px;
     margin: 0 auto;
     border-radius: 20px;
 }
 
-dl:first-child{
+.box-white-about dl:first-child{
     padding-top: 50px;
 }
 
-dl{
+.box-white-about dl{
   margin-bottom: 36px;  
 }
 
-dt{
+.box-white-about dt{
     font-size: 20px;
     font-family: "Meiryo";
     font-weight: bold;
@@ -53,7 +55,7 @@ dt{
     padding-left: 60px;
 }
 
-dd{
+.box-white-about dd{
     font-size: 16px;
     font-weight: bold;
     padding-left: 220px;
@@ -185,10 +187,12 @@ figcaption{
     height: 800px;
     margin: 0 auto;
     position: relative;
+    margin-top: 50px;
 }
 
 .form dl{
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .form dt{
@@ -199,6 +203,7 @@ figcaption{
     line-height: 1.5;
     margin-right: 20px;
 //    border-right: 1px dotted #fff;
+    float: left;
 }
 
 .form span{
@@ -213,6 +218,7 @@ figcaption{
     font-size: 16px;   
     padding: 12px 0;
     color: #fff;
+    text-align: left;
 }
 
 #name{
@@ -222,6 +228,15 @@ figcaption{
     padding-left: 10px;
     font-size: 16px;
 }
+
+#sex{
+    margin-bottom: 36px;
+}
+
+#sex dd{
+    padding-top: 24px;
+}
+
 
 #email{
     width: 40%;
@@ -257,7 +272,7 @@ figcaption{
     line-height: 1.5;
     text-align: center;
     position: absolute;
-    bottom: 36px;
+    bottom: 120px;
     left: 300px;
 }
 

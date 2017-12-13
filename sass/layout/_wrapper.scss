@@ -4,6 +4,7 @@
     margin: 0 auto;
     background-color: #fff;
     position: relative;
+    border: 1px solid #fff;
 }
 
 //トップボタンの編集ここから
@@ -16,9 +17,10 @@
     display: block;
     position: relative;
     bottom: 15px;
-    left: 660px;
+    left: 86%;
     position: fixed;
     border: 2px solid #888;
+    
 }
 
 .top-btn img{
@@ -43,3 +45,13 @@
 }
 
 //トップボタンの編集ここまで
+
+@media screen and (min-width: 758px){
+    #wrapper{
+        width: 1166px;
+        height: auto;
+    }
+    
+    
+    }
+
