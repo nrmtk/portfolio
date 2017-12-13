@@ -271,9 +271,6 @@ figcaption {
   color: #8ed5be;
   padding-top: 30px; }
 
-#contact {
-  margin-bottom: 50px; }
-
 #contact .heading-img img {
   width: 70%; }
 
@@ -358,3 +355,27 @@ span.txt-submit-jp {
 
 .form a {
   display: block; }
+
+.content-footer {
+  width: 100%;
+  height: 400px;
+  background-color: #006e63;
+  position: relative; }
+
+.txt-footer {
+  font-size: 32px;
+  font-family: "Pinyon Script";
+  font-weight: bold;
+  color: #fff799;
+  text-align: center;
+  position: absolute;
+  top: 166px;
+  left: 240px; }
+
+.content-footer small {
+  font-size: 12px;
+  font-family: "Arial";
+  color: #fff;
+  position: absolute;
+  bottom: 48px;
+  left: 280px; }
