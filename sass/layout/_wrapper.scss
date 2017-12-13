@@ -1,5 +1,45 @@
 #wrapper{
     max-width: 1366px;
+    height: auto;
     margin: 0 auto;
     background-color: #fff;
+    position: relative;
 }
+
+//トップボタンの編集ここから
+
+.top-btn{
+    width: 80px;
+    height: 80px;
+    background-color: #fff799;
+    border-radius: 50px;
+    display: block;
+    position: relative;
+    bottom: 15px;
+    left: 660px;
+    position: fixed;
+    border: 2px solid #888;
+}
+
+.top-btn img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 26px;
+}
+
+
+.top-btn p{
+    font-size: 14px;
+    font-family: "Meiryo";
+    font-weight: bold;
+    color: #8ed5be;
+    position: absolute;
+    bottom: 30px;
+    left: 38px;
+//    line-height: 80px;
+    text-align: center;
+}
+
+//トップボタンの編集ここまで
