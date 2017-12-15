@@ -1,5 +1,6 @@
 #wrapper{
-    max-width: 1366px;
+//    max-width: 2366px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     background-color: #fff;
@@ -10,7 +11,8 @@
 //トップボタンの編集ここから
 
 .top-btn{
-    width: 80px;
+    
+    min-width: 80px;
     height: 80px;
     background-color: #fff799;
     border-radius: 50px;
@@ -19,7 +21,7 @@
     bottom: 15px;
     left: 86%;
     position: fixed;
-    border: 2px solid #888;
+    border: 2px solid #ccc;
     
 }
 
