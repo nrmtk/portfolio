@@ -11,7 +11,49 @@
 //トップボタンの編集ここから
 
 .top-btn{
+    width: 64px;
+    height: 64px;
+    background-color: #fff799;
+    border-radius: 50px;
+    display: block;
+    position: relative;
+    bottom: 15px;
+    left: 76%;
+    position: fixed;
+    border: 2px solid #ccc;
     
+}
+
+.top-btn img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 6px;
+    top: 20px;
+}
+
+
+.top-btn p{
+    font-size: 12px;
+    font-family: "Meiryo";
+    font-weight: bold;
+    color: #8ed5be;
+    border-bottom: 1px solid #8ed5be;
+    padding-bottom: 2px;
+    position: absolute;
+    bottom: 22px;
+    left: 26px;
+}
+
+//トップボタンの編集ここまで
+
+@media screen and (min-width: 758px){
+    #wrapper{
+        width: 1166px;
+        height: auto;
+    }
+    
+    .top-btn{
     min-width: 80px;
     height: 80px;
     background-color: #fff799;
@@ -22,10 +64,8 @@
     left: 86%;
     position: fixed;
     border: 2px solid #ccc;
-    
 }
-
-.top-btn img{
+    .top-btn img{
     width: 24px;
     height: 24px;
     position: absolute;
@@ -45,15 +85,5 @@
     bottom: 30px;
     left: 38px;
 }
-
-//トップボタンの編集ここまで
-
-@media screen and (min-width: 758px){
-    #wrapper{
-        width: 1166px;
-        height: auto;
-    }
-    
-    
     }
 

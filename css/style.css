@@ -115,39 +115,66 @@ img {
   border: 1px solid #fff; }
 
 .top-btn {
-  min-width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   background-color: #fff799;
   border-radius: 50px;
   display: block;
   position: relative;
   bottom: 15px;
-  left: 86%;
+  left: 76%;
   position: fixed;
   border: 2px solid #ccc; }
 
 .top-btn img {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   position: absolute;
-  left: 10px;
-  top: 26px; }
+  left: 6px;
+  top: 20px; }
 
 .top-btn p {
-  font-size: 14px;
+  font-size: 12px;
   font-family: "Meiryo";
   font-weight: bold;
   color: #8ed5be;
   border-bottom: 1px solid #8ed5be;
   padding-bottom: 2px;
   position: absolute;
-  bottom: 30px;
-  left: 38px; }
+  bottom: 22px;
+  left: 26px; }
 
 @media screen and (min-width: 758px) {
   #wrapper {
     width: 1166px;
-    height: auto; } }
+    height: auto; }
+  .top-btn {
+    min-width: 80px;
+    height: 80px;
+    background-color: #fff799;
+    border-radius: 50px;
+    display: block;
+    position: relative;
+    bottom: 15px;
+    left: 86%;
+    position: fixed;
+    border: 2px solid #ccc; }
+  .top-btn img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 26px; }
+  .top-btn p {
+    font-size: 14px;
+    font-family: "Meiryo";
+    font-weight: bold;
+    color: #8ed5be;
+    border-bottom: 1px solid #8ed5be;
+    padding-bottom: 2px;
+    position: absolute;
+    bottom: 30px;
+    left: 38px; } }
 
 #header {
   height: 60%; }
@@ -198,8 +225,7 @@ img {
     display: -ms-flexbox;
     display: flex; }
   #gnav ul {
-    width: 100%;
-    height: 200px; }
+    width: 100%; }
   .gnav {
     width: 25%;
     height: 100px; } }
@@ -215,6 +241,10 @@ img {
 
 .heading-img img {
   max-width: 30%; }
+
+#contact .heading-img img {
+  width: 54%;
+  min-width: 54%; }
 
 .box-blue-about {
   background-color: #8ed5be;
@@ -370,18 +400,19 @@ span.txt-submit-jp {
   .box-white-about {
     padding: 76px 82px; }
   .box-white-about dt {
-    font-size: 30px;
+    font-size: 28px;
     padding-top: 10px; }
   .box-white-about dd {
-    font-size: 28px;
+    font-size: 24px;
     padding-left: 130px; }
   .box-blue-skills {
     padding: 96px 100px; }
   .box-white-skills {
-    padding: 63px 48px; }
+    padding: 48px 48px; }
   #skills li {
-    font-size: 36px;
-    font-family: "Meiryo"; }
+    font-size: 24px;
+    font-family: "Meiryo";
+    line-height: 1.8; }
   .box-blue-works {
     width: 100%;
     height: auto;
@@ -414,7 +445,7 @@ span.txt-submit-jp {
   .box-white-works figure {
     margin-top: 40px; }
   .works-img {
-    max-width: 76%;
+    max-width: 90%;
     height: auto; }
   .box-white-works figcaption {
     padding: 20px 0; }
@@ -441,7 +472,7 @@ span.txt-submit-jp {
   font-weight: bold;
   color: #fff799;
   text-align: center;
-  padding: 30px; }
+  padding: 80px; }
 
 .content-footer small {
   font-size: 10px;
@@ -452,6 +483,6 @@ span.txt-submit-jp {
 
 @media screen and (min-width: 758px) {
   .txt-footer {
-    font-size: 64px; }
+    font-size: 32px; }
   .content-footer small {
     font-size: 16px; } }

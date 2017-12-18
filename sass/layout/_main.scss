@@ -16,6 +16,11 @@
     max-width: 30%;
 }
 
+#contact .heading-img img{
+    width: 54%;
+    min-width: 54%;
+}
+
 .box-blue-about{
     background-color: #8ed5be;
     padding: 30px 20px;
@@ -321,12 +326,12 @@ span.txt-submit-jp{
     }
     
     .box-white-about dt{
-        font-size: 30px;
+        font-size: 28px;
         padding-top: 10px;
     }
     
     .box-white-about dd{
-        font-size: 28px;
+        font-size: 24px;
         padding-left: 130px;
     }
     
@@ -339,12 +344,13 @@ span.txt-submit-jp{
     }
     
     .box-white-skills{
-        padding: 63px 48px;
+        padding: 48px 48px;
     }
     
     #skills li{
-        font-size: 36px;
+        font-size: 24px;
         font-family: "Meiryo";
+        line-height: 1.8;
     }
     
 //    #skillsの編集ここまで
@@ -390,7 +396,7 @@ span.txt-submit-jp{
     
     
     .works-img{
-        max-width: 76%;
+        max-width: 90%;
         height: auto;
         
     }
