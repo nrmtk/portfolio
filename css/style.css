@@ -341,7 +341,8 @@ img {
     font-size: 12px;
     color: #888;
     font-weight: bold;
-    line-height: 1.6; }
+    line-height: 1.6;
+    font-family: "Yu Gothic"; }
 
 .box-blue-skills {
   background-color: #8ed5be;
